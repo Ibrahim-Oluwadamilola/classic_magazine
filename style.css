@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: transparent;
+    background-color: transparent;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.i{
+    color: red;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 50px;
+}
+h2{
+    color: red;
+    font-family: 'Pattaya', sans-serif;
+    /* font-size: 30px; */
+}
+
+   ul li a:hover{
+    color: red;
+    transition: 0.4s;
+  }
+  header{
+    background-color: white;
+    overflow: hidden;
+    background-image: url("https://c.ndtvimg.com/2020-05/tpj5o4f8_cooking-_625x300_02_May_20.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: opacity .2s;
+} 
+.header{
+    display: flex;
+    height: 80px;
+    background: transparent;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+      /* transition: all 100ms ease 0s; */
+       position: fixed; 
+       right: 0px; 
+      left: 0px;
+      transition: all 0.5s;
+      
+      /* background-color: #ffffff; */
+      /* z-index: 8001; */
+      /* background-color: rgb(26, 26, 26);  */
+      /* transition: background-color 100ms 500ms linear; */
+      /* position: fixed !important; */
+}
+.header.active{
+    display: flex;
+    height: 80px;
+    background: white;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+      /* transition: all 100ms ease 0s; */
+       position: fixed; 
+       right: 0px; 
+      left: 0px;
+      transition: all 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+.menu{
+    padding-left: 20%;
+} 
+.jollof{
+    font-size: 30px;
+    width: 60%;
+    /* margin: 20px; */
+}
+.middle img{
+    width: 80%;
+    height: 300px;
+}
+.middle{
+    padding: 100px;
+}
+.middle-1{
+    display: flex;
+}
+.middle-2{
+    display: flex;
+}
+.middle-3{
+    display: flex;
+}
+.meals{
+    display: flex;
+}
+.meals img{
+    width: 60%;
+    height: 200px;
+}
+.meals-discription{
+    display: flex;
+    padding: 30px;
+}
+.meals-explanation{
+    width: 50%;
+}
+.meals-discription img{
+    margin-left: 50px;
+    height: 400px;
+    border-radius: 20px;
+}
+.btn {
+    /* -webkit-border-radius: 24; */
+    /* -moz-border-radius: 24; */
+    border-radius: 24px;
+    font-family: Arial;
+    color: #ff0000;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 13px 23px 13px 23px;
+    border: solid #ff0000 2px;
+    text-decoration: none;
+    position: relative; bottom: 30px;
+    
+  }
+  
+  .btn:hover {
+    background: #ff0000;
+    text-decoration: none;
+    color:#ffffff ;
+  }
+  .header-continuation{
+    background-color: transparent;
+    overflow: hidden;
+    background-image: url("https://c.ndtvimg.com/2020-05/tpj5o4f8_cooking-_625x300_02_May_20.jpg" );
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-origin: content-box; */
+    height: 60vh;
+    width: 100%;
+  }
+  /* .continuation */
+  h1{
+      padding-top: 90px;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+  }
+  .suscribe{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+  }
+  .input{
+      display: flex;
+      height: 50px;
+      justify-content: space-between;
+      padding-left: 200px;
+      padding-right: 200px;
+
+  }
+  .butn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ff0000;
+    font-size: 20px;
+    /* bg-start-gradient: #000000; */
+    /* bg-end-gradient: ; */
+    /* bg-start-gradient-hover: #3cb0fd; */
+    /* bg-end-gradient-hover: ; */
+    padding: 5px 20px 5px;
+    border: solid #ff0000 2px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%
+  }
+  
+  .butn:hover {
+    background: red;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footer{
+      /* background-color: red; */
+  }
+  .footer img{
+      width: 50px;
+      height: 50px;
+  }
