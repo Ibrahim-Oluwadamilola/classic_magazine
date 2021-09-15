@@ -51,7 +51,6 @@ h2{
     padding-right: 100px;
       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
       /* transition: all 100ms ease 0s; */
-       /* position: fixed;  */
        right: 0px; 
       left: 0px;
       transition: all 0.5s;
@@ -62,22 +61,4 @@ a{
 }
 .menu{
     padding-left: 20%;
-}
-.i2{
-    color: red;
-    font-family: 'Pattaya', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 20px;
-}
-.recipe img{
-    width: 400px;
-    height: 300px;
-}
-.recipe1{
-    display:flex
-}
-.footer img{
-    width: 50px;
-    height: 50px;
 }

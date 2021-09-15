@@ -101,20 +101,17 @@ a{
     /* margin: 20px; */
 }
 .middle img{
-    width: 80%;
+    width: 400px;
     height: 300px;
 }
 .middle{
-    padding: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .middle-1{
     display: flex;
-}
-.middle-2{
-    display: flex;
-}
-.middle-3{
-    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
 }
 .meals{
     display: flex;
