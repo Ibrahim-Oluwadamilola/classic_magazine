@@ -105,8 +105,9 @@ a{
     height: 300px;
 }
 .middle{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
+    padding: 80px 40px;
 }
 .middle-1{
     display: flex;

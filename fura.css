@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -30,7 +29,7 @@ ul li a {
     font-size: 50px;
 }
 h2{
-    /* color: red; */
+    color: red;
     font-family: 'Pattaya', sans-serif;
     /* font-size: 30px; */
 }
@@ -39,8 +38,33 @@ h2{
     color: red;
     transition: 0.4s;
   }
+  header{
+    background-color: white;
+    overflow: hidden;
+    background-image: url("https://www.oasdom.com/wp-content/uploads/2017/08/fura-de-nunu-610x599.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: opacity .2s;
+} 
 
 .header{
+    display: flex;
+    height: 80px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+      /* transition: all 100ms ease 0s; */
+       right: 0px; 
+      left: 0px;
+      transition: all 0.5s;
+}
+.header.active{
     display: flex;
     height: 80px;
     background: white;
@@ -52,7 +76,7 @@ h2{
     padding-right: 100px;
       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
       /* transition: all 100ms ease 0s; */
-       /* position: fixed;  */
+       position: fixed; 
        right: 0px; 
       left: 0px;
       transition: all 0.5s;
@@ -64,10 +88,8 @@ a{
 .menu{
     padding-left: 20%;
 }
-.i2{
-    font-family: 'Pattaya', sans-serif;
-    font-size: 40px;
-    padding-top: 20px;
+p{
+    font-family: 'Stint Ultra Expanded', cursive;
 }
 .footer img{
     width: 50px;

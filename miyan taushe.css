@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -30,7 +29,7 @@ ul li a {
     font-size: 50px;
 }
 h2{
-    /* color: red; */
+    color: red;
     font-family: 'Pattaya', sans-serif;
     /* font-size: 30px; */
 }
@@ -52,7 +51,6 @@ h2{
     padding-right: 100px;
       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
       /* transition: all 100ms ease 0s; */
-       /* position: fixed;  */
        right: 0px; 
       left: 0px;
       transition: all 0.5s;
@@ -63,13 +61,4 @@ a{
 }
 .menu{
     padding-left: 20%;
-}
-.i2{
-    font-family: 'Pattaya', sans-serif;
-    font-size: 40px;
-    padding-top: 20px;
-}
-.footer img{
-    width: 50px;
-    height: 50px;
 }
