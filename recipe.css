@@ -70,12 +70,18 @@ a{
     text-align: center;
     padding-top: 20px;
 }
+.recipe{
+        padding: 80px 40px;
+        padding-bottom: 0px;
+}
+
 .recipe img{
     width: 400px;
     height: 300px;
 }
 .recipe1{
-    display:flex
+    display:flex;
+    justify-content: space-between;
 }
 .footer img{
     width: 50px;
